@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.recpotato.mobile"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />  
+    <uses-feature android:name="android.hardware.camera" />
+   	<uses-feature android:name="android.hardware.camera.autofocus" />
+
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+    
+        <activity android:name=".RecPotato"
+        		  android:screenOrientation="portrait"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TaskView"
+        		  android:screenOrientation="portrait"
+                  android:label="@string/TaskHeading">
+        </activity>
+        <activity android:name=".CaptureVideo"
+        	      android:screenOrientation="landscape"
+                  android:label="@string/CameraHeading">
+        </activity>
+        <service android:enabled="true" android:name=".HttpUploader" />
+        
+
+    </application>
+</manifest>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello Beta tester, the workflow is as follows: 1. Click on task 2. Read instructions 3. Execute task 4. ???? 5. Profit!!!</string>
+    <string name="app_name">RecPotato</string>
+    <string name="buttonTasks">See tasks</string>
+    <string name="taskName">Dog Video</string>
+    <string name="TaskHeading">Task guidance</string>
+    <string name="CameraHeading">Take video!</string>
+    
+    <string-array name="tasks_array">
+        <item>Dog food</item>
+        <item>Demo day</item>
+        <item>Silicon Valley</item>
+        <item>Random cool thing</item>
+    </string-array>
+        <string name="price">price: </string>
+        <string name="location">Location: </string>
+        <string name="taskDescription">Teemme tutkimusta liittyen koirien vastustuskyvyn ylläpitämiseen ja näin ollen keräämme tietoa koirien ruokailutottumuksista ja ruoansulatusongelmista. Palkkioksi tutkimukseen osallistumisesta tarjoamme Virbac Vet Complex tuotepaketin sisältäen koiranruokaa. Tuotepaketti toimitetaan postitse. Mikäli haluat vastaanottaatuotepaketin, liitä mukaan yhteystietosi.</string>
+        <string name="taskShoot">Take video</string>
+        <string name="taskViewPrice">5€</string>
+        <string name="taskViewDeadline">tomorrow</string>
+        <string name="recordingText">Recording!</string>
+</resources>
